@@ -27,3 +27,8 @@ h1 {
     -webkit-text-stroke-color: yellow;
     text-shadow: 2px 1px #292929;
 }
+#lyrics{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:red;
+    text-shadow: 1px 1px gold;
+}
