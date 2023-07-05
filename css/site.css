@@ -1,0 +1,19 @@
+h1 {
+    color: #5311aa;
+}
+
+.green-text {
+    color: green;
+}
+
+.red-text {
+    color: red;
+}
+
+.logoImage {
+    max-width: 300px;
+}
+
+.heroImage {
+    max-width: 200px;
+}
