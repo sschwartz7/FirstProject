@@ -9,6 +9,9 @@ h1 {
 .red-text {
     color: red;
 }
+.blue-text {
+    color: blue;
+}
 
 .logoImage {
     max-width: 300px;
@@ -17,7 +20,7 @@ h1 {
 .heroImage {
     max-width: 200px;
 }
-#heroText{
+.heroText{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 4em;
     margin:0;
@@ -32,3 +35,11 @@ h1 {
     color:red;
     text-shadow: 1px 1px gold;
 }
+.special-link{
+    text-decoration: none;
+    transition: 1s color;
+}
+.special-link:hover{
+    color: red;
+}
+

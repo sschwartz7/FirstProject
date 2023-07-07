@@ -38,71 +38,97 @@
         </nav>
     </header>
     <main class="container">
-        <img src="/img/Marvel_Logo.png" class="logoImage" />
-        <h1>Welcome to my Marvel fan page!</h1>
-        <h2>What I know about Marvel</h2>
-        <p>
-            Marvel was started in 1939 by Martin Goodman as Timely Comics,[3] and by 1951 had generally become known as
-            Atlas Comics. The Marvel era began in June 1961 with the launch of The Fantastic Four and other superhero
-            titles created by Stan Lee, Jack Kirby, Steve Ditko and many others. The Marvel brand, which had been used
-            over the years and decades, was solidified as the company's primary brand.
-        </p>
-        <p>
-            Marvel counts among its characters such well-known superheroes as Spider-Man, Iron Man, Captain America,
-            Thor, Doctor Strange, Hulk, Daredevil, Wolverine, Black Panther, and Captain Marvel, as well as popular
-            superhero teams such as the Avengers, X-Men, Fantastic Four, and Guardians of the Galaxy. Its stable of
-            well-known supervillains includes the likes of Doctor Doom, Magneto, Ultron, Thanos, Kang the Conqueror,
-            Green Goblin, Red Skull, Galactus, Loki, and Kingpin. Most of Marvel's fictional characters operate in a
-            single reality known as the Marvel Universe, with most locations mirroring real-life places; many major
-            characters are based in New York City, New York, United States.[4] Additionally, Marvel has published
-            several licensed properties from other companies. This includes Star Wars comics twice from 1977 to 1986 and
-            again since 2015.
-        </p>
-        <p>That's everything I know about Marvel</p>
-        <h2 id="heroText">List of Heroes</h2>
-        <table class="table table-striped">
-            <thead class="table-dark">
-                <tr>
-                    <th>Super Hero</th>
-                    <th>Alter Ego</th>
-                    <th>Powers</th>
-                    <th>Picture</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Spider-Man</td>
-                    <td>Peter Parker</td>
-                    <td>you know spider things</td>
-                    <td><img src="/img/spidey.jpeg" class="heroImage" /></td>
-                </tr>
-                <tr>
-                    <td class="nav-item" >
-                        <a class="nav-link" href="/ironman.html">Ironman</a>
-                    <td>Tony Stark</td>
-                    <td>Billionaire Philanthropist, Inventor, Genius</td>
-                    <td><img src="/img/ironman-bleeding-edge.jpg" class="heroImage" /></td>
-                </tr>
-                <tr>
-                    <td>Captain America</td>
-                    <td>Steve Rogers</td>
-                    <td>Super Soldier, Super Patriotic, Super Strong</td>
-                    <td><img src="/img/ClassicCap.png" class="heroImage"/></td>
-                </tr>
-                <tr>
-                    <td>Power Man</td>
-                    <td>Luke Cage</td>
-                    <td>Super Strength, Unbreakable Skin</td>
-                    <td><img src="/img/lukecage.png" class="heroImage"/></td>
-                </tr>
-                <tr>
-                    <td>Ghost-Spider</td>
-                    <td>Gwen Stacy</td>
-                    <td>more spider things</td>
-                    <td><img src="/img/spidergwen.jpg" class="heroImage"/></td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="row gy-1">
+            <div class="col-12 d-flex justify-content-center align-items-center">
+                <img src="/img/Marvel_Logo.png" class="logoImage d-flex justify-content-center" />
+            </div>
+            <div class="col-12 text-center">
+                <h1 class="heroText">Welcome to my Marvel fan page!</h1>
+            </div>
+
+            <div class="col">
+                <h2>What I know about Marvel</h2>
+                <p>
+                    Marvel was started in 1939 by Martin Goodman as Timely Comics,[3] and by 1951 had generally become
+                    known
+                    as
+                    Atlas Comics. The Marvel era began in June 1961 with the launch of The Fantastic Four and other
+                    superhero
+                    titles created by Stan Lee, Jack Kirby, Steve Ditko and many others. The Marvel brand, which had
+                    been
+                    used
+                    over the years and decades, was solidified as the company's primary brand.
+                </p>
+                <p>
+                    Marvel counts among its characters such well-known superheroes as Spider-Man, Iron Man, Captain
+                    America,
+                    Thor, Doctor Strange, Hulk, Daredevil, Wolverine, Black Panther, and Captain Marvel, as well as
+                    popular
+                    superhero teams such as the Avengers, X-Men, Fantastic Four, and Guardians of the Galaxy. Its stable
+                    of
+                    well-known supervillains includes the likes of Doctor Doom, Magneto, Ultron, Thanos, Kang the
+                    Conqueror,
+                    Green Goblin, Red Skull, Galactus, Loki, and Kingpin. Most of Marvel's fictional characters operate
+                    in a
+                    single reality known as the Marvel Universe, with most locations mirroring real-life places; many
+                    major
+                    characters are based in New York City, New York, United States.[4] Additionally, Marvel has
+                    published
+                    several licensed properties from other companies. This includes Star Wars comics twice from 1977 to
+                    1986
+                    and
+                    again since 2015.
+                </p>
+                <p>That's everything I know about Marvel</p>
+            </div>
+            <div class="col">
+                <h2 class="heroText text-center">List of Heroes</h2>
+                <table class="table table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Super Hero</th>
+                            <th>Alter Ego</th>
+                            <th>Powers</th>
+                            <th>Picture</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr>
+                            <td><a class="special-link" href="/spiders-man.html">Spiders-Man</a></td>
+                            <td>Peter Parker?</td>
+                            <td>just a bunch of spiders</td>
+                            <td><img src="/img/spidey.jpeg" class="heroImage"/></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="special-link" href="/ironman.html">Ironman</a>
+                            </td>
+                            <td>Tony Stark</td>
+                            <td>Billionaire Philanthropist, Inventor, Genius</td>
+                            <td><img src="/img/ironman-bleeding-edge.jpg" class="heroImage" /></td>
+                        </tr>
+                        <tr>
+                            <td><a class="special-link" href="/capam.html">Captain America</a></td>
+                            <td>Steve Rogers</td>
+                            <td>Super Soldier, Super Patriotic, Super Strong</td>
+                            <td><img src="/img/ClassicCap.png" class="heroImage" /></td>
+                        </tr>
+                        <tr>
+                            <td><a class="special-link" href="/lukecage.html">Power Man</a></td>
+                            <td>Luke Cage</td>
+                            <td>Super Strength, Unbreakable Skin</td>
+                            <td><img src="/img/lukecage.png" class="heroImage" /></td>
+                        </tr>
+                        <tr>
+                            <td><a class="special-link" href="/spider-gwen.html">Ghost-Spider</a></td>
+                            <td>Gwen Stacy</td>
+                            <td>more spider things</td>
+                            <td><img src="/img/spidergwen.jpg" class="heroImage" /></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </main>
     <footer>
 
